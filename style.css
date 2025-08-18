@@ -11,7 +11,9 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+ 
 }
+
 
 #link {
   margin-left: 15px;
@@ -535,9 +537,13 @@ width: 50%;
 
 
 @media (max-width: 1250px) {
+ 
+   
   .blok {
     flex-direction: column;
-    margin: 20px;
+   margin: 20px;
+   
+   
   
   }
 
@@ -553,6 +559,8 @@ width: 50%;
     margin: 20px 0;
     border-left: none;
     padding: 0;
+    border-radius: 0;
+    
   }
 
   .ingredientes > p,
