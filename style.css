@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 #link {
@@ -237,6 +238,7 @@ aside p {
   border: solid #fe41fb;
   box-shadow: 3px 4px 6px #00000042;
   transition: 0.5s;
+  overflow-y: hidden;
 }
 
 img {
@@ -525,9 +527,10 @@ width: 50%;
 }
 
   article > p {
-    font-size: 1.2em;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 0.9em;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
   }
 
 
@@ -535,6 +538,7 @@ width: 50%;
   .blok {
     flex-direction: column;
     margin: 20px;
+  
   }
 
   .descriçao > h2 {
@@ -554,7 +558,7 @@ width: 50%;
   .ingredientes > p,
   .modo > p,
   .advertencia > p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .advertencia {
